@@ -1,1 +1,1 @@
-scp -r * akalia@linux.gp.cs.cmu.edu:www/
+scp -r *.html doc akalia@linux.gp.cs.cmu.edu:www/
