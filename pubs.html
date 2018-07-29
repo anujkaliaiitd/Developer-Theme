@@ -1,48 +1,11 @@
 <!DOCTYPE html>
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 <head>
-  <title>Anuj Kalia</title>
-  <!-- Meta -->
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Responsive HTML5 Website Landing Page for Developers">
-  <meta name="author" content="Xiaoying Riley at 3rd Wave Media">
-  <link rel="shortcut icon" href="favicon.ico">
-  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-  <!-- Global CSS -->
-  <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
-  <!-- Plugins CSS -->
-  <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.css">
-  <!-- Theme CSS -->
-  <link id="theme-style" rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-  <div class="container sections-wrapper">
-    <div class="row">
-      <div class="primary col-md-2 col-sm-0 col-xs-0"></div> <!--Hack to center the rest-->
-      <div class="primary col-md-8 col-sm-12 col-xs-12">
-
-<!--About me-->
-<section class="about section">
-  <div class="section-inner">
-    <h2 class="heading">About me</h2>
-    <div class="content">
-      <p>I am a final-year PhD student advised by <a href="https://www.cs.cmu.edu/~dga/">Prof. David Andersen</a>.
-         My research interest is computer systems in the networked environment.</p>
-      <p>I am generously supported by a <a href="https://research.fb.com/announcing-the-2017-facebook-phd-fellows/">Facebook PhD fellowship</a>.</p>
-      <p>I am building <a href="https://github.com/anujkaliaiitd/eRPC">eRPC</a>.</p>
-      <p>[<a href="files/anuj-cmu.jpg">Photo</a>] [<a href="doc/personal/resume.pdf">Resume</a>] [email: akalia at cs dot cmu dot edu]
-    </div><!--//content-->
-  </div><!--//section-inner-->
-</section><!--//section-->
 
 <!--Conference papers-->
 <section class="projects section">
   <div class="section-inner">
-    <h2 class="heading">Selected publications [<a href="pubs.html">Full list</a>]</h2>
+    <h2 class="heading">Conference papers</h2>
     <div class="content">
 
       <div class="item">
@@ -51,6 +14,12 @@
         Proc. USENIX NSDI, 2019</br>
         [<a href="doc/erpc/preprint.pdf">Preprint</a>]
         [<a href="https://github.com/anujkaliaiitd/eRPC">Code</a>]
+      </div><!--//item-->
+
+      <div class="item">
+        <h3 class="title">Putting the "Micro" Back in Microservices (short paper)</h3>
+        Proc. USENIX ATC, 2018</br>
+        Sol Boucher, <u>Anuj Kalia</u>, Michael Kaminsky, David G. Andersen</br>
       </div><!--//item-->
 
       <div class="item">
@@ -74,6 +43,24 @@
       </div><!--//item-->
 
       <div class="item">
+        <h3 class="title">Architecting to Achieve a Billion Requests Per Second Throughput on a Single Key-Value Store Server Platform</h3>
+        S. Li, H. Lim, V. Lee, J.H. Ahn, <u>A. Kalia</u>, M. Kaminsky, D. Andersen, Seongil O, S. Lee, P. Dubey</br>
+        Proc. ACM/IEEE ISCA, 2015</br>
+        <i>Selected as one of IEEE Micro Top Picks. Invited to appear as an extended version at ACM TOCS.</i></br>
+        [<a href="http://www.istc-cc.cmu.edu/publications/papers/2015/p476-li.pdf">Paper</a>]
+        [<a href="https://github.com/efficient/mica/tree/isca2015">Code</a>]
+      </div><!--//item-->
+
+      <div class="item">
+        <h3 class="title">Raising the Bar for Using GPUs in Software Packet Processing</h3>
+        Proc. USENIX NSDI, 2015</br>
+        <u>Anuj Kalia</u>, Dong Zhou, Michael Kaminsky, David G. Andersen</br>
+        [<a href="doc/nsdi15/gopt_nsdi.pdf">Paper</a>]
+        [<a href="doc/nsdi15/gopt_slides.pdf">Slides</a>]
+        [<a href="https://github.com/efficient/gopt">Code</a>]
+      </div><!--//item-->
+
+      <div class="item">
         <h3 class="title">Using RDMA Efficiently for Key-Value Services</h3>
         Proc. ACM SIGCOMM, 2014</br>
         <u>Anuj Kalia</u>, Michael Kaminsky, David G. Andersen</br>
@@ -86,6 +73,27 @@
   </div><!--//section-inner-->
 </section><!--//section-->
 
+<!--Journal papers-->
+<section class="projects section">
+  <div class="section-inner">
+    <h2 class="heading">Journal papers</h2>
+    <div class="content">
+      <div class="item">
+        <h3 class="title">Achieving One Billion Key-Value Requests per Second on a Single Server</h3>
+        In MICRO Top Picks 2016</br>
+        S. Li, H. Lim, V. Lee, J.H. Ahn, <u>A. Kalia</u>, M. Kaminsky, D. Andersen, Seongil O, S. Lee, P. Dubey</br>
+        [<a href="http://ieeexplore.ieee.org/document/7436652/?arnumber=7436652">Paper</a>]
+      </div><!--//item-->
+
+      <div class="item">
+        <h3 class="title">Full-Stack Architecting to Achieve a Billion-Requests-Per-Second Throughput on a Single Key-Value Store Server Platform</h3>
+        In ACM TOCS, 2016</br>
+        S. Li, H. Lim, V. Lee, J.H. Ahn, <u>A. Kalia</u>, M. Kaminsky, D. Andersen, Seongil O, S. Lee, P. Dubey</br>
+        [<a href="http://www.cs.cmu.edu/~hl/papers/billion-tocs2016.pdf">Paper</a>]
+      </div><!--//item-->
+    </div><!--//content-->
+  </div><!--//section-inner-->
+</section><!--//section-->
 
       </div><!--//primary-->
       <div class="primary col-md-2 col-sm-0 col-xs-0"></div> <!--Hack to center the rest-->
