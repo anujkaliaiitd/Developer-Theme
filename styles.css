@@ -548,3 +548,7 @@ figure {
   display: flex;
   align-items: center;
 }
+
+figcaption {
+  padding: 30px;
+}
