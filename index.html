@@ -25,7 +25,8 @@
 <body>
   <div class="container sections-wrapper">
     <div class="row">
-      <div class="primary col-md-2 col-sm-0 col-xs-0"></div> <!--Eat up two leftmost columns on medium or larger devices-->
+      <!--Eat up two leftmost columns on medium or larger devices-->
+      <div class="primary col-md-2 col-sm-0 col-xs-0"></div>
 
       <div class="primary col-md-8 col-sm-12 col-xs-12">
         <!--About me-->
@@ -34,32 +35,44 @@
             <h2 class="heading">About me</h2>
             <div class="content">
               <figure>
-                <img src="files/anuj-cmu.jpg" width = "175">
+                <img src="files/anuj-cmu.jpg" width="175">
                 <figcaption>
-                    <p>I am a final-year PhD student advised by <a href="https://www.cs.cmu.edu/~dga/">Prof. David Andersen</a>.
-                      My research interest is computer systems in the networked environment.
-                      My current project is <a href="https://github.com/anujkaliaiitd/eRPC">eRPC</a>.</p>
-                    <p>I am generously supported by a <a href="https://research.fb.com/announcing-the-2017-facebook-phd-fellows/">Facebook PhD fellowship</a>.</p>
-                    <p>[<a href="files/anuj-cmu.jpg">Photo</a>] [<a href="doc/personal/resume.pdf">Resume</a>] [email: akalia@cs.cmu.edu]</p>
-                    <font color="#d7191c">I am on the academic job market.</font>
+                  <p>I am a final-year PhD student advised by <a href="https://www.cs.cmu.edu/~dga/">Prof. David
+                      Andersen</a>.
+                    My research interest is computer systems in the networked environment.
+                    My current project is <a href="https://github.com/anujkaliaiitd/eRPC">eRPC</a>.</p>
+                  <p>I am generously supported by a <a href="https://research.fb.com/announcing-the-2017-facebook-phd-fellows/">Facebook
+                      PhD fellowship</a>.</p>
+                  <p>[<a href="files/anuj-cmu.jpg">Photo</a>] [<a href="doc/personal/resume.pdf">Resume</a>] [email:
+                    akalia@cs.cmu.edu]</p>
+                  <font color="#d7191c">I am on the academic job market.</font>
                 </figcaption>
               </figure>
-            </div> <!--//content-->
-          </div> <!--//section-inner-->
-        </section> <!--//section-->
+            </div>
+          </div>
+        </section>
 
-        <!--Selected papers-->
+        <!--Conference papers-->
         <section class="projects section">
           <div class="section-inner">
-            <h2 class="heading">Representative publications [<a href="pubs.html">Full list</a>]</h2>
+            <h2 class="heading">Conference papers</h2>
             <div class="content">
 
               <div class="item">
                 <h3 class="title">Datacenter RPCs can be General and Fast</h3>
                 Proc. USENIX NSDI, 2019</br>
                 <u>Anuj Kalia</u>, Michael Kaminsky, David G. Andersen</br>
-                [<a href="doc/nsdi19/erpc_nsdi19.pdf">Paper</a>]
+                [<a href="doc/erpc/preprint.pdf">Preprint</a>]
                 [<a href="https://github.com/anujkaliaiitd/eRPC">Code</a>]
+              </div>
+
+              <div class="item">
+                <h3 class="title">Putting the "Micro" Back in Microservices (short paper)</h3>
+                Proc. USENIX ATC, 2018</br>
+                Sol Boucher, <u>Anuj Kalia</u>, Michael Kaminsky, David G. Andersen</br>
+                [<a href="https://www.usenix.org/system/files/conference/atc18/atc18-boucher.pdf">Paper</a>]
+                [<a href="https://www.usenix.org/sites/default/files/conference/protected-files/atc18_slides_boucher.pdf">Slides</a>]
+                [<a href="https://github.com/efficient/microservices_microbenchmarks">Code</a>]
               </div>
 
               <div class="item">
@@ -85,6 +98,25 @@
               </div>
 
               <div class="item">
+                <h3 class="title">Architecting to Achieve a Billion Requests Per Second Throughput on a Single
+                  Key-Value Store Server Platform</h3>
+                Proc. ACM/IEEE ISCA, 2015</br>
+                S. Li, H. Lim, V. Lee, J.H. Ahn, <u>A. Kalia</u>, M. Kaminsky, D. Andersen, Seongil O, S. Lee, P. Dubey</br>
+                <i>Selected as one of IEEE Micro Top Picks. Invited to appear as an extended version at ACM TOCS.</i></br>
+                [<a href="http://www.istc-cc.cmu.edu/publications/papers/2015/p476-li.pdf">Paper</a>]
+                [<a href="https://github.com/efficient/mica/tree/isca2015">Code</a>]
+              </div>
+
+              <div class="item">
+                <h3 class="title">Raising the Bar for Using GPUs in Software Packet Processing</h3>
+                Proc. USENIX NSDI, 2015</br>
+                <u>Anuj Kalia</u>, Dong Zhou, Michael Kaminsky, David G. Andersen</br>
+                [<a href="doc/nsdi15/gopt_nsdi.pdf">Paper</a>]
+                [<a href="doc/nsdi15/gopt_slides.pdf">Slides</a>]
+                [<a href="https://github.com/efficient/gopt">Code</a>]
+              </div>
+
+              <div class="item">
                 <h3 class="title">Using RDMA Efficiently for Key-Value Services</h3>
                 Proc. ACM SIGCOMM, 2014</br>
                 <u>Anuj Kalia</u>, Michael Kaminsky, David G. Andersen</br>
@@ -93,14 +125,38 @@
                 [<a href="doc/sigcomm14/herd_slides.pdf">Slides</a>]
                 [<a href="https://github.com/efficient/HERD/">Code</a>]
               </div>
-            </div> <!--//content-->
-          </div> <!--//section-inner-->
-        </section> <!--//section-->
-      </div> <!--//primary-->
+            </div>
+          </div>
+        </section>
 
-      <div class="primary col-md-2 col-sm-0 col-xs-0"></div>  <!--Eat up two rightmost columns on medium or larger devices-->
-    </div> <!--//row-->
-  </div> <!--//masonry-->
+        <!--Journal papers-->
+        <section class="projects section">
+          <div class="section-inner">
+            <h2 class="heading">Journal papers</h2>
+            <div class="content">
+              <div class="item">
+                <h3 class="title">Achieving One Billion Key-Value Requests per Second on a Single Server</h3>
+                In MICRO Top Picks 2016</br>
+                S. Li, H. Lim, V. Lee, J.H. Ahn, <u>A. Kalia</u>, M. Kaminsky, D. Andersen, Seongil O, S. Lee, P. Dubey</br>
+                [<a href="http://ieeexplore.ieee.org/document/7436652/?arnumber=7436652">Paper</a>]
+              </div>
+
+              <div class="item">
+                <h3 class="title">Full-Stack Architecting to Achieve a Billion-Requests-Per-Second Throughput on a
+                  Single Key-Value Store Server Platform</h3>
+                In ACM TOCS, 2016</br>
+                S. Li, H. Lim, V. Lee, J.H. Ahn, <u>A. Kalia</u>, M. Kaminsky, D. Andersen, Seongil O, S. Lee, P. Dubey</br>
+                [<a href="http://www.cs.cmu.edu/~hl/papers/billion-tocs2016.pdf">Paper</a>]
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="primary col-md-2 col-sm-0 col-xs-0"></div>
+        <!--Eat up two rightmost columns on medium or larger devices-->
+      </div>
+    </div>
+  </div>
 
   <!-- ******FOOTER****** -->
   <footer class="footer">
