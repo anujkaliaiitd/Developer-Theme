@@ -19,15 +19,6 @@ Microsoft Research Cambridge
 
 =========================
 
-Garth Gibson
-garth@cs.cmu.edu
-+14122685890
-
-Gates-Hillman Center 9111
-5000 Forbes Avenue, Pittsburgh, PA 15213-3891
-
-========================
-
 Michael Kaminsky
 michael.e.kaminsky@intel.com
 +14122685023
@@ -38,9 +29,27 @@ Pittsburgh, PA 15213
 
 =======================
 
+Garth Gibson
+garth@cs.cmu.edu
++14122685890
+
+Gates-Hillman Center 9111
+5000 Forbes Avenue, Pittsburgh, PA 15213-3891
+
+========================
+
 Richard Uhlig
 richard.a.uhlig@intel.com
 +15036968080
 
 Intel Corporation
 6397 NE Evergreen Pkwy
+
+
+Paper titles:
+Datacenter RPCs can be General and Fast, NSDI 2019
+Using RDMA Efficiently for Key-value Services, SIGCOMM 2014
+Raising the Bar for Using GPUs in Software Packet Processing, NSDI 2015
+
+Thesis:
+Efficient Networked Systems for Datacenters with RPCs
